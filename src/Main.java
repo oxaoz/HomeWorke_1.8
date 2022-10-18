@@ -92,9 +92,11 @@ public class Main {
 
         for (int l = 0; l < bloke.length; l++){
             if (bloke[l] % 2 != 0) {
-                System.out.print(bloke[l] + 1 + ", ");
+                bloke[l] += 1;
             }
+            System.out.print(bloke[l]  + ", ");
         }
+
     }
 }
 
